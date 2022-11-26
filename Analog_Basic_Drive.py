@@ -20,7 +20,7 @@ al nostro controller, è importante conoscerlo per testare.
     "echo Running at boot"
     "sudo python /home/pi/Analog_Basic_Drive.py &"
     Salvare e fare il reboot per verificare che il programma sia avvii al boot.
-
+cazzp
 4. Se non si vogliono usare altri devices connessi al raspberry (solo il controller), nel codice scriviamo "fh = open('.../event0')",
    come è già fatto nell'esempio, normalmente per il testing iniziale al posto di 0 ci sarà l'ID individuato al passo 1. 
    In generale usiamo eventX con X=k+1 e k = numero devices connessi al raspberry prima del pairing.
